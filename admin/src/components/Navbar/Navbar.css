@@ -1,0 +1,59 @@
+@keyframes myName{
+    from{margin-left:0;}
+    to{
+        margin-left:1rem;
+    }
+}
+html, body {
+    overflow-x: hidden;
+}
+@keyframes my{
+    from{opacity:0.6;}
+    to{
+        opacity:1.0;
+    }
+ }
+ .navbar{
+    background-color: red;
+    padding:0.5rem;
+    height:17vh;
+ 
+ }
+ .nav-admin{
+color:whitesmoke;
+font-size:1.5rem;
+margin-bottom:0.1rem;
+padding:0.2rem;
+color:black;
+font-weight: 700;
+margin-left:5rem;
+ }
+.m-logo{ 
+    padding-left:2rem;
+    margin-right:1rem;
+    color:white;
+   /* font-weight: bold;  */
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:4rem;
+   animation: myName 2s ease-in 1s 1 normal;
+   animation: my 2s ease-in 1s 1 normal;
+}
+.nav-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    margin-right:2rem;
+}
+@media(max-width:780px){
+.m-logo{
+   font-size:35px;
+   margin-top:0.8rem;
+}
+}
+@media(max-width:380px){
+    .profile{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+.display-food{
+width:75vw;
+margin:auto;
+}
+.display-food h2{
+font-size:2rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight:400 ;
+margin:1.5rem;
+}
+.food-display-list{
+   display:grid;
+   grid-template-columns:repeat(auto-fill,minmax(240px,1fr)) ; 
+}
+
+@media((min-width:0px )and (max-width:635px)){
+   .display-food{
+      width:85vw;
+     
+      }
+   .food-display-list{
+      grid-template-columns:repeat(auto-fill,minmax(160px,1fr)) ; 
+   }
+}

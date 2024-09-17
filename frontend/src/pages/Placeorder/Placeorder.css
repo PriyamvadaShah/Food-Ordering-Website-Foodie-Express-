@@ -1,0 +1,85 @@
+.place-order{
+
+    width:75vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto;
+    margin-top:5rem;
+}
+.place-order h3{
+    font-size:2rem;
+    padding-left:1rem;
+    margin-bottom:1rem;
+}
+.place-order-right h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-left:1rem;
+    margin-bottom:1rem;
+    
+}
+.place-order-right{
+    margin-left: 5rem;
+}
+
+.place-order input{
+    padding:0.5rem;
+margin:0.8rem;
+height:2rem;
+border-radius: 5px;
+}
+.place-order .place-same{
+    display: flex;
+
+}
+.place-long{
+   width:23.5rem;
+}
+.place-order-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width:900px){
+    .place-order-right{
+        margin-left: 2rem;
+    }
+}
+@media(max-width:770px){
+    .place-order-main{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .place-order-right{
+        margin-left:4rem;
+    }
+    .place-order-right h2{
+        margin-left:4rem;
+        margin-top:2rem;
+    }
+    .place-order-right .checkout{
+        margin-left:-0.5rem;
+      
+    }
+    .place-order-left h3{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-3rem;
+    }
+    .place-order-left{
+        margin-left:3rem;
+        margin-right:auto;
+    }
+}
+@media(max-width:640px){
+    .place-order-left{
+        margin-left:1rem;
+        margin-right:auto;
+    }
+}
+@media(max-width:500px){
+    .place-order-left{
+        margin-left:-3rem;
+    }
+}

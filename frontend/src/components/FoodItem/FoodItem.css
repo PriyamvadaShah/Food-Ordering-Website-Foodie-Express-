@@ -1,0 +1,90 @@
+.itemimg{
+    height:15rem;
+    width:100%;
+    border-radius:15px 15px 0px 0px;
+    padding:1rem;
+}
+@keyframes fadeIn{
+    0% {    
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fooditem{
+    width:100%;
+    margin:auto;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(230, 222, 222);
+    opacity: 0.8;
+    transition: 0.2s;
+   animation: fadeIn 1s ease-in;
+   margin-top:2rem;
+   /* margin-top:1rem;
+   margin-bottom:1rem; */
+}
+ img:hover{
+    cursor:pointer;
+    opacity: 1;
+}
+.food-item-info{
+  padding: 0.5rem; 
+
+}
+.food-rating{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+}
+.food-rating p{
+    font-size:1rem;
+    color:black;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-weight: 600;
+}
+.food-desc{
+    font-size:0.9rem;
+    padding:0.3rem;
+}
+.food-price{
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    color:orangered;
+}
+.food-img{
+    position:relative;
+}
+.food-img .add{
+   opacity:1;
+    width:40px;
+    height:40px;
+    right:20px;
+    bottom:30px;
+    position:absolute;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    background-color: whitesmoke;
+position:absolute;
+bottom:30px;
+right:20px;
+width:6rem;
+height:2.5rem;
+display:flex;
+justify-content: space-around;
+align-items: center;
+border-radius:15px;
+
+}
+.food-item-counter .cnt{
+    margin:0.4rem;
+    opacity:1;
+    width:30px;
+    height:30px; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+

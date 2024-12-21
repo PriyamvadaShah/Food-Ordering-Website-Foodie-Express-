@@ -1,2 +1,2 @@
 # Food-Ordering-Website-Foodie-Express-
-A full-stack web development project using NodeJS, ExpressJS, MongoDB ,ReactJS
+A group project for developing full-stack food delivery project using NodeJS, ExpressJS, MongoDB ,ReactJS

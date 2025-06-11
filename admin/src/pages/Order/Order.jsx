@@ -5,7 +5,7 @@ import {toast} from "react-toastify";
 import { useEffect,useState } from 'react';
 import {assets}from '../../assets/assets';
 
-const url='http://localhost:8000';
+const url= process.env.REACT_APP_BASE_URL || 'http://localhost:8000';
 function Order() {
   const [orders,setOrders]=useState([]);
   const fetchorders=async()=>{

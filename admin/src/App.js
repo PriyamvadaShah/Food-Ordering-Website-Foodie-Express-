@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
-  const url="http://localhost:8000";
+  const url = process.env.REACT_APP_BASE_URL || 'http://localhost:8000';
   return (
    <div>
     <ToastContainer/>
